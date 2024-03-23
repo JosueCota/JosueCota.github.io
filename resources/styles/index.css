@@ -1,26 +1,42 @@
+/* General Tags */
 *{
     margin: 0px;
 }
-
 html {
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(29, 27, 27);
+}
+header {
+    background-color: whitesmoke;
 }
 
-.nav-bar {
+/* Navbar */
+.nav-container {
     display: flex;
     height: 2rem;
     justify-content: space-between;
     align-content: center;
-    margin: .5rem 3rem;
+    padding: .25rem 3rem;
 }
-
-.logo-img {
+.nav-logo-img {
+    position: relative;
+    top: .25rem;
     width: 1.5rem;
     height: auto;
 }
-
-.logo-title {
-    display: inline;
+.nav-logo-title {
+    display: inline-block;
 }
+.nav-links {
+    align-self: center;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0px 1rem;
 
+}
 
