@@ -90,12 +90,20 @@ header {
     color: black;
     margin: 10px;
 }
+.aboutme-content p {
+    /* text-indent: 4rem; */
+    /* uncomment if text-align center for name */
+}
 .aboutme-img {
     width: 30%;
     overflow: hidden;
 }
-
+.aboutme-name {
+    text-align: start;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
 /* Breakpoints 
     1160 wide (navbar/section1/)
-    
+
 */
