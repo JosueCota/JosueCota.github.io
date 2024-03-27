@@ -118,17 +118,75 @@ header {
     color: black;
     margin: 10px;
 }
-.aboutme-content p {
-    /* text-indent: 4rem; */
-    /* uncomment if text-align center for name */
-}
 .aboutme-img {
     width: 30%;
     overflow: hidden;
 }
 
+/* Projects Section */
+.project-card-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+.project-card{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    border: 1px solid black;
+    border-radius: .75rem;
+    background-color: #e6b456; 
+    color: rgb(0, 0, 0);
+}
+.project-img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin:0rem 1.25rem;
+}
+.projects-section-header{
+    justify-content: center;
+}
+.project-header{
+    font-size: 1.25rem;
+}
+.project2 .project-card{
+    background-color: #e6c07c;
+}
+.project-show-skills{
+    width: 20px;
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    position: relative;
+    top: 0px;
+    float: right;
+    margin-right: 1.25rem;
+    border: none;
+    background: none;
+}
+.project-skills{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.project-list {
+    display: flex;
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    /* add margin bottom when displayed and remove margin bottom from project-car */
+}
+.project-list li {
+    padding: .25rem;
+    border-radius: 1rem;
+    margin: .25rem;
+    background-color: #e6b456;
+}
 /* Breakpoints 
-    1150 wide (navbar)
+    1050 wide (navbar)
 
 */

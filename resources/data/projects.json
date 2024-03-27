@@ -1,0 +1,18 @@
+[
+    {
+        "project-name": "Portfolio",
+        "project-desc": "Lorem Ipsum awdalwkdmla awda wdaw  daw dwd",
+        "project-img": "./resources/imgs/fullstack-icon.png",
+        "project-skills":
+            {
+                "languages":
+                [
+                    "HTML", "CSS", "JavaScript"
+                ],
+                "tech": 
+                [
+                    "Bootstrap", "JSQuery", "Github"
+                ]
+            } 
+    }
+]
