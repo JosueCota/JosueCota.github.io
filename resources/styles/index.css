@@ -14,10 +14,9 @@ body {
 header {
     background-color: #EABE6C;
 }
-.em {
+em {
     color: yellow;
     text-decoration: none;
-    font-style: italic;
     font-weight: 600;
 }
 .em:hover {
@@ -67,6 +66,9 @@ header {
     font-weight: 600;
     margin: 0px 1rem;
 }
+.nav-links a:hover{
+    color: yellow;
+}
 .nav-linktext {
     display: inline-block;
     position: relative;
@@ -78,7 +80,6 @@ header {
 .main{
     display: flex;
     flex-flow: column wrap;
-    width: 80%;
     margin: 5rem auto 0rem auto;
     margin-top: 5rem;
     justify-content: center;
@@ -86,7 +87,9 @@ header {
     
 }
 .section {
-    margin-bottom: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15rem;
 }
 .section-header {
     display: flex;
@@ -108,42 +111,54 @@ header {
 
 /* About Me  */
 .aboutme-section {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 .aboutme-content{
-    width: 60%;
+    align-self: center;
+    max-width: 60%;
     border-radius: 20px;
     color: black;
     margin: 10px;
 }
 .aboutme-img {
-    width: 30%;
-    overflow: hidden;
+    width: 35%;
+    min-width: 275px;
 }
 
 /* Projects Section */
-.project-card-container {
+.projects-section {
+    margin-top: 1.5rem;
     display: flex;
-    flex-flow: column wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .project-card{
-    margin: 1rem auto;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
+    width: 45%;
+    flex-flow: column wrap;
+    margin: 1rem auto;
     align-items: center;
-
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: .75rem;
     background-color: #e6b456; 
-    color: rgb(0, 0, 0);
+    margin: 0rem .5rem;
+}
+.project-norm {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 .project-img {
-    display: inline-block;
-    width: 200px;
+    width: 175px;
     height: auto;
-    margin:0rem 1.25rem;
+    margin-right:1.25rem;
 }
 .projects-section-header{
     justify-content: center;
@@ -151,12 +166,16 @@ header {
 .project-header{
     font-size: 1.25rem;
 }
+.project-right {
+    width: 70%;
+}
 .project2 .project-card{
     background-color: #e6c07c;
 }
 .project-show-skills{
-    width: 20px;
-    align-self: flex-end;
+    font-size: large !important;
+    position:relative;
+    right: 0px;
     margin-top: 0px;
     margin-bottom: 1rem;
     position: relative;
@@ -166,27 +185,37 @@ header {
     border: none;
     background: none;
 }
+.project-show-skills:hover {
+    color: yellow;
+}
 .project-skills{
     display: flex;
-    align-content: center;
-    justify-content: space-between;
+    width: 100%;
+}
+.project-skill {
+    width: 50%;
 }
 .project-list {
-    display: flex;
-
+    display: flex !important;
+    flex-wrap: wrap;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+    padding: 0px !important;
     /* add margin bottom when displayed and remove margin bottom from project-car */
 }
 .project-list li {
-    padding: .25rem;
-    border-radius: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
     margin: .25rem;
-    background-color: #e6b456;
+    color: white;
+    background-color: purple;
 }
+.project-list li:hover {
+    background-color: #e6c07c;
+    color: black;
+}
+
+
 /* Breakpoints 
     1050 wide (navbar)
-
+    950 (aboutme)
 */

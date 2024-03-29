@@ -1,13 +1,22 @@
-alert("Under Construction...")
 
 function showProjectSkills(event){
-    const skillDiv = event.target.parentElement;
-    console.log(skillDiv)
-    if (event.target.innerHTML=== "+"){
-        event.target.innerHTML = "-";
-        event.target.style.fontSize = "1.15rem"
+
+    const skillDiv = document.getElementById("project-skills1");
+    if (event.target.innerHTML=== "Show Skills Used +"){
+        event.target.innerHTML = "Hide Skills -";
+        event.target.style.fontSize = ".75rem"
+        event.target.style.marginBottom = "1rem"
+        
+        skillDiv.style.display = "flex";
+
     } else {
-        event.target.innerHTML = "+"
-        event.target.style.fontSize = "1rem"
+        event.target.innerHTML = "Show Skills Used +";
+        event.target.style.fontSize = "1rem";
+        event.target.style.marginBottom = ".25rem"
+
+        
+        skillDiv.style.display = "none";
     }
+
+
 }

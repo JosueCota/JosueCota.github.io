@@ -1,2 +1,2 @@
 
-fetch(data, URL("./resources/data/projects.json"))
+// fetch(data, URL("./resources/data/projects.json"))
