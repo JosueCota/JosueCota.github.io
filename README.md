@@ -1,3 +1,3 @@
 # Portfolio  
-In the future  
-## Oh yeah, you can access it through [this](https://josuecota.github.io/).
+Work in Progress  
+## You can access it through [this link](https://josuecota.github.io/).
