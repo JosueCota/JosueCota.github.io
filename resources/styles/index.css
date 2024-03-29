@@ -151,12 +151,12 @@ em {
     display: flex;
     width: 45%;
     flex-flow: column wrap;
-    margin: 1rem auto;
     align-items: center;
     border: 2px solid black;
     border-radius: .75rem;
     background-color: #e6b456; 
-    margin: 0rem .5rem;
+    margin: 1rem auto;
+    height: fit-content;
 }
 .project-norm {
     display: flex;
