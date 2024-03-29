@@ -33,8 +33,13 @@ em {
 
 /* Navbar */
 .nav-container {
+    width: 100%;
+    background-color: #EABE6C;
+    position: fixed;
+    top: 0px;
     display: flex;
     height: 4rem;
+    z-index: 10;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: center;
@@ -78,6 +83,7 @@ em {
 
 /* Sections */
 .main{
+    z-index: 5;
     display: flex;
     flex-flow: column wrap;
     margin: 5rem auto 0rem auto;
@@ -137,6 +143,9 @@ em {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.project-card:hover{
+    background-color: #e6c07c;
+}
 .project-card{
     padding: 1rem;
     display: flex;
@@ -163,6 +172,10 @@ em {
 .projects-section-header{
     justify-content: center;
 }
+.project-link{
+    text-decoration: none;
+    font-weight: 900;
+}
 .project-header{
     font-size: 1.25rem;
 }
@@ -177,7 +190,7 @@ em {
     position:relative;
     right: 0px;
     margin-top: 0px;
-    margin-bottom: 1rem;
+    margin-bottom: .25rem;
     position: relative;
     top: 0px;
     float: right;
@@ -209,10 +222,7 @@ em {
     color: white;
     background-color: purple;
 }
-.project-list li:hover {
-    background-color: #e6c07c;
-    color: black;
-}
+
 
 
 /* Breakpoints 

@@ -3,6 +3,7 @@
         "project-name": "Portfolio",
         "project-desc": "Lorem Ipsum awdalwkdmla awda wdaw  daw dwd",
         "project-img": "./resources/imgs/fullstack-icon.png",
+        "project-link": "https://github.com/JosueCota/JosueCota.github.io",
         "project-skills":
             {
                 "languages":
