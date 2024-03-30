@@ -1,7 +1,7 @@
 [
     {
         "project-name": "Portfolio",
-        "project-desc": "Lorem Ipsum awdalwkdmla awda wdaw  daw dwd",
+        "project-desc": "Showcasing the skills and projects I've made throughout my computer science career.",
         "project-img": "./resources/imgs/fullstack-icon.png",
         "project-link": "https://github.com/JosueCota/JosueCota.github.io",
         "project-skills":
@@ -13,7 +13,33 @@
                 "tech": 
                 [
                     "Bootstrap", "JSQuery", "Github"
+                ],
+                "general":[
+                    "Web Design"
                 ]
-            } 
+            } ,
+        "project-num" : 1
+    },
+    {
+        "project-name": "Speedsters",
+        "project-desc": "",
+        "project-img": "./resources/imgs/fullstack-icon.png",
+        "project-link": "https://github.com/JosueCota/JosueCota.github.io",
+        "project-skills":
+            {
+                "languages":
+                [
+                    "C#"
+                ],
+                "tech": 
+                [
+                    "Unity", "Github", "Github"
+                ],
+                "general":
+                [
+                    "Sprint", "Team"
+                ]
+            } ,
+        "project-num" : 2
     }
 ]

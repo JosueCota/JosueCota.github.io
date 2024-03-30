@@ -1,7 +1,7 @@
 
 function showProjectSkills(event){
+    const skillDiv = document.getElementById(`project-skills${event.target.id.slice(-1)}`);
 
-    const skillDiv = document.getElementById("project-skills1");
     if (event.target.innerHTML=== "Show Skills Used +"){
         event.target.innerHTML = "Hide Skills -";
         event.target.style.fontSize = ".75rem"
