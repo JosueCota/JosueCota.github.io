@@ -1,45 +1,24 @@
 [
     {
         "project-name": "Portfolio",
-        "project-desc": "Showcasing the skills and projects I've made throughout my computer science career.",
-        "project-img": "./resources/imgs/fullstack-icon.png",
+        "project-desc": "Showcasing my skills and the projects I've made throughout my computer science education.",
+        "project-img": "",
         "project-link": "https://github.com/JosueCota/JosueCota.github.io",
         "project-skills":
-            {
-                "languages":
-                [
-                    "HTML", "CSS", "JavaScript"
-                ],
-                "tech": 
-                [
-                    "Bootstrap", "JSQuery", "Github"
-                ],
-                "general":[
-                    "Web Design"
-                ]
-            } ,
+            [
+                "HTML", "CSS", "JavaScript","Bootstrap", "JQuery", "Github","Web Design"
+            ],
         "project-num" : 1
     },
     {
         "project-name": "Speedsters",
-        "project-desc": "",
-        "project-img": "./resources/imgs/fullstack-icon.png",
-        "project-link": "https://github.com/JosueCota/JosueCota.github.io",
+        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF.",
+        "project-img": "./resources/imgs/speedsters.png",
+        "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
         "project-skills":
-            {
-                "languages":
-                [
-                    "C#"
-                ],
-                "tech": 
-                [
-                    "Unity", "Github", "Github"
-                ],
-                "general":
-                [
-                    "Sprint", "Team"
-                ]
-            } ,
+            [
+                "C#", "Unity", "Github", "Scrum", "Teamwork"
+            ],
         "project-num" : 2
     }
 ]
