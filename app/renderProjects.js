@@ -11,7 +11,6 @@ fetch("./resources/data/projects.json")
 // Render all projects based on amount in projects.json
 const renderProjects = (projects) => {
     for (const project of projects) {
-        console.log(project);
         renderProject(project)
     }
 }
@@ -32,14 +31,14 @@ const renderProject = (project) => {
         src="${project["project-img"]}"
         />
         <div class="project-right">
-          <a href="${project["project-link"]}" class="project-link" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>
         </div>`
     } else {
         topDiv.innerHTML = `<div class="project-full">
-          <a href="${project["project-link"]}" class="project-link" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>

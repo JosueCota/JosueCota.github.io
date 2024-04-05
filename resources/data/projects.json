@@ -12,7 +12,7 @@
     },
     {
         "project-name": "Speedsters",
-        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF.",
+        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF. Link to browser version: <a class='project-links' href='https://wafflefish.itch.io/speedsters'>Hello</a> ",
         "project-img": "./resources/imgs/speedsters.png",
         "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
         "project-skills":

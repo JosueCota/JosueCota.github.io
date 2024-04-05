@@ -168,11 +168,14 @@ em:hover {
 .projects-section-header{
     justify-content: center;
 }
-.project-link{
+.project-gitlink{
     display: block;
     width: fit-content;
     text-decoration: none;
     font-weight: 900;
+}
+.project-links {
+    color: white;
 }
 .project-header{
     color: rgb(9, 204, 243) !important;
