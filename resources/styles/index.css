@@ -7,10 +7,6 @@ html {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body {
-    background-color: #2b2b2b  !important;
-    /* Orange in case of regret EABE6C*/
-}
 em {
     color: yellow;
     text-decoration: none;
@@ -31,7 +27,6 @@ em:hover {
 /* Navbar */
 .nav-container {
     width: 100%;
-    background-color: #2b2b2b;
     position: fixed;
     top: 0px;
     display: flex;
@@ -142,14 +137,10 @@ em:hover {
     width: 45%;
     flex-flow: column wrap;
     border-radius: .75rem;
-    background-color: #1f2f34;
     border: 5px black solid;
     padding: 1rem;
     margin: 1rem auto;
     height: fit-content;
-}
-.project-card:hover{
-    background-color: #254955;
 }
 .project-norm {
     display: flex;

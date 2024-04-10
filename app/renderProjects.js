@@ -19,7 +19,7 @@ const renderProjects = (projects) => {
 const renderProject = (project) => {
     const num = project["project-num"];
 
-    const projectCont = document.createElement("div");projectCont.classList.add("project-card");
+    const projectCont = document.createElement("div");projectCont.classList.add("project-card", "project-color");
     projectCont.id = `project${num}`;
 
     const topDiv = document.createElement("div");
