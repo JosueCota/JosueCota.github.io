@@ -12,13 +12,36 @@
     },
     {
         "project-name": "Speedsters",
-        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF. Link to browser version: <a class='project-links' href='https://wafflefish.itch.io/speedsters'>Hello</a> ",
+        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF. <a class='project-links' href='https://wafflefish.itch.io/speedsters'>Web Browser Game Link</a> ",
         "project-img": "./resources/imgs/speedsters.png",
         "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
         "project-skills":
             [
-                "C#", "Unity", "Github", "Scrum", "Teamwork"
+                "C#", "Unity", "Github", "Agile", "Scrum", "Teamwork"
             ],
         "project-num" : 2
+    },
+    {
+        "project-name": "Weather App",
+        "project-desc": "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
+        "project-img": "./resources/imgs/speedsters.png",
+        "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
+        "project-skills":
+            [
+                "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
+            ],
+        "project-num" : 3
+    }
+    ,
+    {
+        "project-name": "Weather App",
+        "project-desc": "Lorem Ipsum someshit idk ",
+        "project-img": "./resources/imgs/github-logo.png",
+        "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
+        "project-skills":
+            [
+                "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
+            ],
+        "project-num" : 4
     }
 ]

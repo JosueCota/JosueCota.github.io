@@ -127,26 +127,24 @@ em:hover {
 /* Projects Section */
 .projects-section {
     margin-top: 1.5rem;
-    display: flex;
     width: 90%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .project-card{
-    display: flex;
-    width: 45%;
-    flex-flow: column wrap;
+    display: inline-block;
     border-radius: .75rem;
     border: 5px black solid;
     padding: 1rem;
-    margin: 1rem auto;
-    height: fit-content;
+    vertical-align: top;
+    padding-bottom: 5px;
+    width: 45%;
+    margin: 0rem 1rem .5rem 1rem;
+    /* height:min-content; */
 }
 .project-norm {
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     color: white;
     /* margin-bottom: .25rem */
 }
@@ -191,15 +189,18 @@ em:hover {
     border: none;
 }
 .project-btn{
-    padding-left: 4.5px;
-    padding-bottom: 6px;
+    position: relative;
+    padding-left: 4px;
     margin-left: 95%;
+    margin-bottom: 0px !important;
     font-size: 1.5rem !important;
     border: 1px #254955 solid;
     border-radius: 50%;
     background: #2b2b2b;
     color: white;
-    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 10px;
     width: 30px;
     height: 30px;
 }
@@ -207,6 +208,7 @@ em:hover {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 .project-skills {
     width: 80%;
@@ -218,6 +220,7 @@ em:hover {
     /* center or start ???*/
     list-style: none;
     padding: 0px !important;
+    margin: 0px;
 }
 .project-list li {
     padding: .5rem;
