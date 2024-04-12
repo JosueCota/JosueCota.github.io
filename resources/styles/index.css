@@ -161,15 +161,15 @@ em:hover {
 .project-norm {
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: row nowrap;
-    /* margin-bottom: .25rem */
 }
 .project-img {
-    width: 175px;
-    height: auto;
+    max-width: 175px;
+    max-height: 175px;
     border-radius: 1rem;
     margin-right:1.25rem;
+    overflow: hidden;
 }
 .projects-section-header{
     justify-content: center;
@@ -208,6 +208,8 @@ em:hover {
     font-size: 1.5rem !important;
     border: 1px #acc7bb solid;
     border-radius: 50%;
+    cursor: pointer;
+
     vertical-align: middle;
     text-align: center;
     line-height: 10px;

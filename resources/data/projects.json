@@ -24,24 +24,12 @@
     {
         "project-name": "Weather App",
         "project-desc": "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
-        "project-img": "./resources/imgs/speedsters.png",
+        "project-img": "./resources/imgs/weather-app.png",
         "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
         "project-skills":
             [
                 "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
             ],
         "project-num" : 3
-    }
-    ,
-    {
-        "project-name": "Weather App",
-        "project-desc": "Lorem Ipsum someshit idk ",
-        "project-img": "./resources/imgs/github-logo.png",
-        "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
-        "project-skills":
-            [
-                "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
-            ],
-        "project-num" : 4
     }
 ]

@@ -2,18 +2,15 @@
 function showProjectSkills(event){
     const skillDiv = document.getElementById(`project-skills${event.target.id.slice(-1)}`);
 
-    if (event.target.innerHTML=== "+"){
-        event.target.innerHTML = "-";
-        event.target.style.fontSize = ".75rem"
-        event.target.style.marginBottom = "1rem"
-
+    if (event.target.innerHTML=== ""){
+        console.log("clicked")
+        event.target.style.backgroundImage = "url(resources/imgs/minus-sign.png)";
         skillDiv.style.display = "flex";
+        event.target.innerHTML = " "
 
-    } else {
-        event.target.innerHTML = "+";
-        event.target.style.fontSize = "1rem";
-        event.target.style.marginBottom = ".25rem"
-
+    } else if (event.target.innerHTML === " "){
+        event.target.innerHTML = "";
+        event.target.style.backgroundImage = "url(resources/imgs/plus-sign.png)";
         skillDiv.style.display = "none";
     }
 

@@ -6,7 +6,10 @@ fetch("./resources/data/projects.json")
         return response.json();
     })
     .then(projects => renderProjects(projects))
-    .catch(error => console.error('Error fetching questions:', error));
+    .catch(error => {
+        console.error('Error fetching projects:', error)
+        
+    });
 
 // Render all projects based on amount in projects.json
 const renderProjects = (projects) => {
@@ -50,7 +53,6 @@ const renderProject = (project) => {
     const skillsButton = document.createElement("button");
     skillsButton.className = "project-btn"
     skillsButton.id=`skills-btn${num}`;
-    skillsButton.innerHTML = "+";
     skillsButton.onclick = showProjectSkills;
     projectCont.appendChild(skillsButton);
 

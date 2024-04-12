@@ -40,10 +40,14 @@
 
 .project-btn{
     color: #453a3a;
-    background-color: #aeeedb;
+    /* background-color: #aeeedb; */
+    background: url("../imgs/plus-sign.png") no-repeat scroll center center transparent;
+    background-size: 30px;
+    background-position: center;
+    background-position-x: center;
 }
 
 .project-btn:hover{
     color: white;
-    background-color: #453a3a;
+    background-color: #ac8b8b;
 }
