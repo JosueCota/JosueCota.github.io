@@ -124,20 +124,20 @@ em:hover {
 
 /* Projects Section */
 .projects-section {
-    display: grid;
     margin-top: 1.5rem;
     width: 90%;
+    columns: 2;
+    column-gap: 10px;
     align-items: start;
-    grid-template-columns: 1fr 1fr;
 }
 .project-card{
     border-radius: .75rem;
     border: 5px black solid;
     padding: 1rem;
     padding-bottom: 5px;
-    /* width: 100%; */
-
+    width: 100%;
     margin: 0rem 1rem .5rem 1rem;
+    break-inside: avoid;
     /* height:min-content; */
 }
 .project-norm {
