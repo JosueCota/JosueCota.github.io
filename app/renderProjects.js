@@ -19,7 +19,7 @@ const renderProjects = (projects) => {
 const renderProject = (project) => {
     const num = project["project-num"];
 
-    const projectCont = document.createElement("div");projectCont.classList.add("project-card", "project-color");
+    const projectCont = document.createElement("div");projectCont.classList.add("project-card");
     projectCont.id = `project${num}`;
 
     const topDiv = document.createElement("div");
@@ -31,14 +31,14 @@ const renderProject = (project) => {
         src="${project["project-img"]}"
         />
         <div class="project-right">
-          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header">${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>
         </div>`
     } else {
         topDiv.innerHTML = `<div class="project-full">
-          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header project-name">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header">${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>
@@ -88,7 +88,6 @@ const addSkillDiv = (skillDiv, projectList) => {
 //Add color to div (not random, based on order)
 const colorize = (i) => {
     const check = i%5;
-    console.log(check)
     switch (check) {
         case 0:
             return "#e378f4"
