@@ -36,7 +36,6 @@ em:hover {
     justify-content: space-between;
     align-content: center;
     padding: 0rem 10rem;
-    border-bottom: 2px rgb(255, 255, 255) solid;
 }
 .nav-logo-img {
     width: 2rem;
@@ -73,9 +72,12 @@ em:hover {
 
 /* Sections */
 .secondary-header{
-    h3{
+    color: rgb(13, 110, 253);
+    font-size: 1.25rem !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    h3 {
         font-size: 1.25rem !important;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family:Georgia, 'Times New Roman', Times, serif; 
     }
 }
 .main{
