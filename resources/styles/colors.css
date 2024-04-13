@@ -1,5 +1,5 @@
 .body-color {
-    background-color: #373131fd  !important;
+    background-color: #211919fd  !important;
 }
 
 .section-name {
@@ -8,7 +8,7 @@
 }
 
 .nav-container {
-    background-color: #2b2b2b;
+    background-color: #211919fd;
 }
 
 .aboutme-content{
@@ -29,9 +29,8 @@
     /* color: rgb(9, 204, 243) !important; */
     color: #8b5454;
 }
-.project-header:hover{
-    /* color: rgb(9, 204, 243) !important; */
-    color: #cdb0b0;
+.secondary-header:hover{
+    color: rgb(9, 204, 243) !important;
 }
 
 .project-links {

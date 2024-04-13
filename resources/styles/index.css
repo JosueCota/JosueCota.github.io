@@ -72,6 +72,12 @@ em:hover {
 
 
 /* Sections */
+.secondary-header{
+    h3{
+        font-size: 1.25rem !important;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+}
 .main{
     z-index: 5;
     display: flex;
@@ -82,14 +88,15 @@ em:hover {
 }
 .section {
     width: 80%;
-    margin: auto;
-    margin-bottom: 4rem;
+    min-height: 100vh;
+    margin: 0px auto;
 }
 .section-header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     block-size: 100%;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .section-name {
     display: inline-block;
@@ -105,12 +112,13 @@ em:hover {
     margin-right: .5rem;
 }
 
+
 /* About Me  */
 .aboutme-section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: center;
+    align-content: top;
     overflow: hidden;
 }
 .about-card {
@@ -125,6 +133,22 @@ em:hover {
         max-height: 320px;
         border-radius: 10px;
     }
+}
+.card-title {
+    display: inline;
+}
+.cards{
+    display: flex;
+    
+}
+.figure-caption {
+    /* position:relative; */
+    /* bottom: 0%; */
+    left: 45%;
+    padding: 5px;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgba(255, 228, 196, 0.693);
+    border-radius: 0 0 10px 10px;
 }
 .carousel-item{
     width: 500px !important;
@@ -143,10 +167,10 @@ em:hover {
 
 /* Projects Section */
 .projects-section {
-    width: 90%;
+    /* width: 90%; */
     columns: 2;
-    column-gap: 10px;
-    align-items: start;
+    column-gap: .75rem;
+    align-items: center;
 }
 .project-card{
     border-radius: .75rem;
@@ -180,39 +204,21 @@ em:hover {
     text-decoration: none;
     font-weight: 900;
 }
-
-.project-header{
-    font-size: 1.25rem;
-}
-
 .project-right {
     width: 70%;
 }
 .project-full {
     margin-top: .25rem;
     width: 95%;
-}
-.project-full p {
-    margin-bottom: 0rem;
-}
-.project-btn:hover {
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border: none;
+    p {
+        margin-bottom: 0px;
+    }
 }
 .project-btn{
     position: relative;
-    padding-left: 4px;
     margin-left: 95%;
-    margin-bottom: 0px !important;
-    font-size: 1.5rem !important;
-    border: 1px #acc7bb solid;
     border-radius: 50%;
     cursor: pointer;
-
-    vertical-align: middle;
-    text-align: center;
-    line-height: 10px;
     width: 30px;
     height: 30px;
 }
@@ -238,8 +244,7 @@ em:hover {
     padding: .5rem;
     border-radius: .5rem;
     margin: .25rem;
-    opacity: .8;
-    /* 1 or .8 or .9 ???*/
+    opacity: .75;
     color: black;
 }
 

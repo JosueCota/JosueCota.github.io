@@ -34,14 +34,14 @@ const renderProject = (project) => {
         src="${project["project-img"]}"
         />
         <div class="project-right">
-          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink secondary-header" target="_blank"><h3>${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>
         </div>`
     } else {
         topDiv.innerHTML = `<div class="project-full">
-          <a href="${project["project-link"]}" class="project-gitlink" target="_blank"><h3 class="project-header">${project["project-name"]}</h3></a>
+          <a href="${project["project-link"]}" class="project-gitlink secondary-header" target="_blank"><h3>${project["project-name"]}</h3></a>
           <p class="project-description">
             ${project["project-desc"]}
           </p>

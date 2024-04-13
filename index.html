@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     />
     <link href="./resources/styles/colors.css" rel="stylesheet">
+    <link href="./resources/styles/animations.css" rel="stylesheet">
 
     <title>Portfolio</title>
   </head>
@@ -31,7 +32,7 @@
           </a>
         </div>
         <div class="nav-links link">
-          <a href="#about-me">About Me</a>
+          <a href="#">About Me</a>
           <a href="#project-section-header">Projects</a>
           <a href="#">Skills</a>
           <a href="#">Contacts</a>
@@ -51,37 +52,35 @@
         <h2 class="section-name">About Me</h2>
       </div>
       <section class="aboutme-section section flex-hor" id="about-me">
+        <div class="cards">
+          <div class="card about-card left-card" style="width: 18rem;" data-toggle="animation" data-animation-reset="true" data-animation="slide-right">
+            <img class="card-img-top" src="./resources/imgs/education.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title secondary-header">Education</h5>
+              <p class="card-text">Currently an undergraduate at CSUF, majoring in Computer Science. Member of the ACM club as well as the Video Game Development Club. Previously attended Cypress College and graduating this December.
+              </p>
+            </div>
+          </div>
+          
+          <div class="card about-card middle-card" style="width: 18rem;">
+            <img class="card-img-top" src="./resources/imgs/fullyhacks.jpg" alt="Card image cap">
+            <figcaption class="figure-caption text-center">At CSUF Fullyhacks 2024</figcaption>
+            <div class="card-body">
+              <h5 class="card-title secondary-header">Engagement</h5>
+              <p class="card-text">My hobbies include gaming, robotics, and reading sci-fi books. I also attend enjoy hackathons, practicing leetcode, and keeping up to date with new technologies.</p>
+            </div>
+          </div>
+          
+          <div class="card about-card right-card" style="width: 18rem;">
+            <img class="card-img-top" src="./resources/imgs/fullstack-icon.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title secondary-header">Future</h5>
+              <p class="card-text">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn ReactNative, Svelte, and Firebase.</p>
+            </div>
+          </div>
+        </div>
 
-        <div class="card about-card" style="width: 18rem;">
-          <img class="card-img-top" src="./resources/imgs/education.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Education</h5>
-            <p class="card-text">Currently an undergraduate at CSUF, majoring in Computer Science. Member of the ACM club as well as the Video Game Development Club. Previously attended Cypress College and graduating this December.
-            </p>
-          </div>
-        </div>
-        
-        <div class="card about-card" style="width: 18rem;">
-          <img class="card-img-top" src="./resources/imgs/fullyhacks.jpg" alt="Card image cap">
-          <figcaption class="figure-caption text-center">At CSUFFullyhacks 2024.</figcaption>
-          <div class="card-body">
-            <h5 class="card-title">Engagement</h5>
-            <p class="card-text">My hobbies include gaming, robotics, and reading sci-fi books. I also attend enjoy hackathons, practicing leetcode, and keeping up to date with new technologies.</p>
-          </div>
-        </div>
-        
-        <div class="card about-card" style="width: 18rem;">
-          <img class="card-img-top" src="./resources/imgs/fullstack-icon.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Future</h5>
-            <p class="card-text">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn ReactNative, Svelte, and Firebase.</p>
-          </div>
-        </div>
-
-          <!-- <p>
-             My hobbies include gaming, robotics, and reading sci-fi books. I'm currently learning backend, and I am hoping to also learn ReactNative and make a mobile app. I keep myself active in the computer science community by being part of the ACM and Video Game Development clubs at CSUF, attending hackathons, and keeping myself up to date with the latest technologies. I'm eager to learn and always looking for new experiences to learn and grow my skills. 
-          </p> -->
-            <!-- Part for about me (who i am), hobbies/on the side (clubs), career. -->        
+           
       </section>
 
       <div class="section-header projects-section-header" id="project-section-header">
