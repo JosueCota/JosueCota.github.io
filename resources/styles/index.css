@@ -117,55 +117,53 @@ em:hover {
 
 /* About Me  */
 .aboutme-section {
-    display: flex;
-    flex-flow: row wrap;
+    min-height: 10vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 1fr 50%;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
-    align-content: top;
+    align-items: start;
     overflow: hidden;
+    margin-bottom: 12rem;
 }
-.about-card {
-    width: 500px !important;
-    color: white;
-    background-color: #473a3e00 !important;
-    padding: 5px;
-    /* margin: 0px .5rem; */
-    border: none !important;
-    border-radius: 0 !important;
-    img {
-        max-height: 320px;
-        border-radius: 10px;
+.desc {
+    margin-left: 1rem;
+    text-align: justify;
+    width: 40%;
+    font-size: 1rem;
+    p {
+        margin-bottom: 1rem;
     }
 }
-.card-title {
-    display: inline;
+.right-border{
+    border-right: 2px whitesmoke solid;
+    height: 100%;
 }
-.cards{
-    display: flex;
-    
+.par{
+    font-size: large;
+    margin-left: 2rem;
 }
-.figure-caption {
-    /* position:relative; */
-    /* bottom: 0%; */
-    left: 45%;
-    padding: 5px;
-    color: rgb(0, 0, 0) !important;
-    background-color: rgba(255, 228, 196, 0.693);
-    border-radius: 0 0 10px 10px;
-}
-.carousel-item{
-    width: 500px !important;
+.carousel {
+    grid-area: 1 / 1 / span 3 / span 1;
+    margin-left: 1.5rem;
+    width: 90%;
+    div img {
+        height: 400px;
+    }
 
 }
-.aboutme-content{
-    align-self: center;
-    max-width: 60%;
-    border-radius: 20px;
-    margin: 10px;
+span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    filter: none !important;
 }
-.aboutme-img {
-    width: 35%;
-    min-width: 275px;
+.abcaption {
+    width: min-content !important;
 }
+p.bg-dark.w-auto.text-white-50.abcaption {
+    width: max-content !important;
+    margin: 0px auto;
+}
+
 
 /* Projects Section */
 .projects-section {

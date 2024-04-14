@@ -57,7 +57,56 @@
         <h2 class="section-name">About Me</h2>
       </div>
       <section class="aboutme-section section flex-hor" id="about-me">
-        <div class="cards">
+
+        <div id="aboutme-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aboutme-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#aboutme-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#aboutme-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./resources/imgs/education.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>First slide label</h5> -->
+                <!-- <p>Some representative placeholder content for the first slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./resources/imgs/fullyhacks.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5 class="bg-dark">At CSUF Fullyhacks 2024</h5> -->
+                <p class="bg-dark w-auto text-white-50 abcaption">At CSUF Fullyhacks 2024</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./resources/imgs/fullstack-icon.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Third slide label</h5> -->
+                <!-- <p>Some representative placeholder content for the third slide.</p> -->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#aboutme-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#aboutme-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+        <p class="secondary-header right-border about-titles">Education</p>
+        <p class="par slide-left">Currently an undergraduate at CSUF, majoring in Computer Science. Member of the ACM club as well as the Video Game Development Club. Previously attended Cypress College and graduating this December.</p>
+        <p class="secondary-header right-border about-titles">Engagement</p>
+        <p class="par slide-left">My hobbies include gaming, robotics, and reading sci-fi books. I also attend enjoy hackathons, practicing leetcode, and keeping up to date with new technologies.</p>
+        <p class="secondary-header right-border about-titles">Future</p>
+        <p class="par slide-left">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn ReactNative, Svelte, and Firebase.</p>
+        
+        
+
+        <!-- <div class="cards">
           <div class="card about-card left-card" style="width: 18rem;" data-toggle="animation" data-animation-reset="true" data-animation="slide-right">
             <img class="card-img-top" src="./resources/imgs/education.jpg" alt="Card image cap">
             <div class="card-body">
@@ -83,7 +132,7 @@
               <p class="card-text">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn ReactNative, Svelte, and Firebase.</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
            
       </section>

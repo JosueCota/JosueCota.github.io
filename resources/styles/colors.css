@@ -8,14 +8,12 @@
 }
 
 .nav-container {
-    background-color: #211919fd;
+    background-color: #0b0909c4;
 }
 
-.aboutme-content{
+.aboutme-section{
     color: white;
-
 }
-
 .project-card {
     /* background-color: #1f2f34; */
     background-color: #B3DEC1;
@@ -24,10 +22,6 @@
 .project-card:hover {
     /* background-color: #254955; */
     background-color: #aeeedb;
-}
-.project-header{
-    /* color: rgb(9, 204, 243) !important; */
-    color: #8b5454;
 }
 .secondary-header:hover{
     color: rgb(9, 204, 243) !important;
@@ -48,5 +42,5 @@
 
 .project-btn:hover{
     color: white;
-    background-color: #ac8b8b;
+    background-color: hsl(0, 0%, 100%);
 }

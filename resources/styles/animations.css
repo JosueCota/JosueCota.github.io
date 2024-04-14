@@ -25,7 +25,7 @@
     }
 }
 
-.left-card {
+.carousel {
     animation-name: fadeInLeft;
     animation-duration: .5s;
     animation-timing-function: ease-in;
@@ -33,7 +33,7 @@
     animation-iteration-count: 1;
 }
 
-.middle-card {
+.about-titles {
     animation-name: fadeUp;
     animation-duration: .5s;
     animation-timing-function: ease-in;
@@ -41,7 +41,7 @@
     animation-iteration-count: 1;
 }
 
-.right-card {
+.slide-left {
     animation-name: fadeInRight;
     animation-duration: .5s;
     animation-timing-function: ease-in;
