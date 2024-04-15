@@ -23,7 +23,23 @@ em:hover {
     display: flex;
     flex-flow: column wrap;
 }
-
+.goUpBtn {
+    display: none;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 1rem;
+    right: 3rem;
+    border: 1px solid black;
+    background-color: white;
+    background-image: url("../imgs/upArrow.png");
+    background-position: center;
+    background-size: 35px;
+    border-radius: 50%;
+}
+.goUpBtn:hover {
+    background-color: aqua;
+}
 /* Navbar */
 .nav-container {
     width: 100%;
@@ -139,6 +155,7 @@ em:hover {
 .right-border{
     border-right: 2px whitesmoke solid;
     height: 100%;
+    height: fit-content;
 }
 .par{
     font-size: large;
@@ -156,18 +173,16 @@ em:hover {
 span.carousel-control-next-icon, span.carousel-control-prev-icon {
     filter: none !important;
 }
-.abcaption {
-    width: min-content !important;
-}
-p.bg-dark.w-auto.text-white-50.abcaption {
+p.bg-dark.w-auto.text-white.abcaption {
     width: max-content !important;
     margin: 0px auto;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 
 /* Projects Section */
 .projects-section {
-    /* width: 90%; */
     columns: 2;
     column-gap: .75rem;
     align-items: center;
@@ -179,7 +194,6 @@ p.bg-dark.w-auto.text-white-50.abcaption {
     width: 100%;
     margin: 0rem 1rem .5rem 1rem;
     break-inside: avoid;
-    /* height:min-content; */
 }
 .project-norm {
     display: flex;

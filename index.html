@@ -17,6 +17,9 @@
     />
     <link href="./resources/styles/colors.css" rel="stylesheet">
     <link href="./resources/styles/animations.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="resources/imgs/favicon_io/apple-touch-icon.png">
@@ -65,21 +68,21 @@
             <button type="button" data-bs-target="#aboutme-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active" data-bs-interval="false">
               <img src="./resources/imgs/education.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>First slide label</h5> -->
                 <!-- <p>Some representative placeholder content for the first slide.</p> -->
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item" data-bs-interval="false">
               <img src="./resources/imgs/fullyhacks.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <!-- <h5 class="bg-dark">At CSUF Fullyhacks 2024</h5> -->
-                <p class="bg-dark w-auto text-white-50 abcaption">At CSUF Fullyhacks 2024</p>
+                <p class="bg-dark w-auto text-white abcaption">At CSUF Fullyhacks 2024</p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="false">
               <img src="./resources/imgs/fullstack-icon.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Third slide label</h5> -->
@@ -103,38 +106,6 @@
         <p class="par slide-left">My hobbies include gaming, robotics, and reading sci-fi books. I also attend enjoy hackathons, practicing leetcode, and keeping up to date with new technologies.</p>
         <p class="secondary-header right-border about-titles">Future</p>
         <p class="par slide-left">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn Svelte, HTMX, and Firebase.</p>
-        
-        
-
-        <!-- <div class="cards">
-          <div class="card about-card left-card" style="width: 18rem;" data-toggle="animation" data-animation-reset="true" data-animation="slide-right">
-            <img class="card-img-top" src="./resources/imgs/education.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title secondary-header">Education</h5>
-              <p class="card-text">Currently an undergraduate at CSUF, majoring in Computer Science. Member of the ACM club as well as the Video Game Development Club. Previously attended Cypress College and graduating this December.
-              </p>
-            </div>
-          </div>
-          
-          <div class="card about-card middle-card" style="width: 18rem;">
-            <img class="card-img-top" src="./resources/imgs/fullyhacks.jpg" alt="Card image cap">
-            <figcaption class="figure-caption text-center">At CSUF Fullyhacks 2024</figcaption>
-            <div class="card-body">
-              <h5 class="card-title secondary-header">Engagement</h5>
-              <p class="card-text">My hobbies include gaming, robotics, and reading sci-fi books. I also attend enjoy hackathons, practicing leetcode, and keeping up to date with new technologies.</p>
-            </div>
-          </div>
-          
-          <div class="card about-card right-card" style="width: 18rem;">
-            <img class="card-img-top" src="./resources/imgs/fullstack-icon.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title secondary-header">Future</h5>
-              <p class="card-text">My goal after graduating is to go into web development as a full-stack engineer. I am hoping to learn ReactNative, Svelte, and Firebase.</p>
-            </div>
-          </div>
-        </div> -->
-
-           
       </section>
 
       <div class="section-header projects-section-header" id="project-section-header">
@@ -145,13 +116,16 @@
       <section class="projects-section section grid" id="projects-section">
           
       </section>
-    
-    <section>
-        
-      </section>
+
+
+    <a class="goUpBtn" href="#" id="goUp"></a>
     </main>
 
-    <footer></footer>
+    <footer class="contacts-footer">
+
+    </footer>
+    
+    
     <script src="./app/interactivity.js"></script>
     <script src="./app/renderProjects.js"></script>
     <script

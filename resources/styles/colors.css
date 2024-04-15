@@ -1,5 +1,7 @@
 .body-color {
-    background-color: #211919fd  !important;
+    background-color: #222  !important;
+    /* background-color: #09ccf3  !important; */
+    /* background-color: #EABE6C  !important; */
 }
 
 .section-name {
@@ -8,27 +10,39 @@
 }
 
 .nav-container {
-    background-color: #0b0909c4;
+    background-color: #222  !important;
+    /* background-color: #EABE6C  !important; */
 }
 
 .aboutme-section{
-    color: white;
+    font-family: "Source Code Pro";
+    color: rgb(201, 123, 123);
 }
 .project-card {
-    /* background-color: #1f2f34; */
-    background-color: #B3DEC1;
-    color: black !important;
+    /* background-color: #1f2f34;  darkmode 
+       color: white;*/
+    background-color: #B3DEC1; /* Light Mode */
+    color: rgb(201, 123, 123);
 }
 .project-card:hover {
-    /* background-color: #254955; */
+    /* background-color: #254955; darkmode */
     background-color: #aeeedb;
+}
+.aboutme-section .secondary-header {
+    color: rgb(255, 255, 255);
+}
+.aboutme-section .secondary-header:hover {
+    color: white !important;
 }
 .secondary-header:hover{
     color: rgb(9, 204, 243) !important;
 }
 
 .project-links {
-    color: rgba(219, 75, 27, 0.906);
+    color: rgba(245, 0, 0, 0.846);
+}
+.project-links:hover {
+    color: rgba(27, 22, 22, 0.846);
 }
 
 .project-btn{
