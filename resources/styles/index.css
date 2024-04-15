@@ -70,7 +70,6 @@ em:hover {
     align-self: center;
 }
 .nav-links a{
-    color: white;
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 600;
@@ -84,11 +83,25 @@ em:hover {
     position: relative;
     bottom: .5rem;
 }
-
+.modeBtn + label{
+    background: url("../imgs/moon.png") !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-position: center !important;
+    background-size: 30px !important;
+    background-color: rgb(17, 195, 240) !important;
+}
+.modeBtn:checked + label{
+    background: url("../imgs/sun.png") !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-position: center !important;
+    background-size: 30px !important;
+    background-color: yellow !important;
+}
 
 /* Sections */
 .secondary-header{
-    color: rgb(13, 110, 253);
     font-size: 1.25rem !important;
     font-family:Georgia, 'Times New Roman', Times, serif;
     h3 {

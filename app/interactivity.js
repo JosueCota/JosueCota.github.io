@@ -1,3 +1,10 @@
+//Dark Mode use white color for body
+const greyBack = "#222";
+const fontRed = "#C97878";
+const projNorm = "#1f2f34";
+const projHov = "#254955";
+
+
 
 function showProjectSkills(event){
     const skillDiv = document.getElementById(`project-skills${event.target.id.slice(-1)}`);
@@ -25,3 +32,13 @@ window.addEventListener("scroll", function(){
         upBtn.style.display = "none";
     }
 });
+
+function colorModeSwitch(event) {
+    const html = document.querySelector("html");
+    if (!event.target.checked) {
+        html.classList.remove("lightMode")
+    } else {
+        html.classList.add("lightMode")
+
+    }
+}
