@@ -1,13 +1,12 @@
-@keyframes fadeInLeft {
+@keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateX(-500px);
     } to {
-        transform: translateX(0);
+        opacity: 1;
     }
 }
 @keyframes fadeInRight {
-    from {
+    0% {
         opacity: 0;
         transform: translateX(500px);
     } to {
@@ -17,35 +16,38 @@
 
 @keyframes fadeUp {
 
-    from {
-        opacity: 0;
-        transform: translateY(500px);
-    } to {
-        transform: translateY(0);
+    0% {
+        width: 0%;
+        overflow: hidden;
+    } 60% {
+        overflow: hidden;
+        width: 60%;
+    } 100% {
+        overflow: hidden;
+        width: 100%;
     }
 }
+@keyframes pulse {
+    0% {
+        transform: scale(1.009);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
 
-.left-card {
-    animation-name: fadeInLeft;
-    animation-duration: .5s;
-    animation-timing-function: ease-in;
-    animation-delay: onscroll;
-    animation-iteration-count: 1;
+    } 100% {
+        transform: scale(1);
+        
+    }
+}
+.carousel {
+    animation: fadeIn 2s ease-in 1;
 }
 
-.middle-card {
-    animation-name: fadeUp;
-    animation-duration: .5s;
-    animation-timing-function: ease-in;
-    /* animation-delay: 1s; */
-    animation-iteration-count: 1;
+.project-card:hover {
+    animation: pulse .25s ease-in 1;
+}
+.about-titles {
+    animation: fadeUp 1.5s ease-in 1;
 }
 
-.right-card {
-    animation-name: fadeInRight;
-    animation-duration: .5s;
-    animation-timing-function: ease-in;
-    /* animation-delay: 1s; */
-    animation-iteration-count: 1;
-    
+.slide-left {
+    animation: fadeInRight .5s ease-in 1;
 }
