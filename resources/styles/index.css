@@ -40,6 +40,7 @@ em:hover {
 .goUpBtn:hover {
     background-color: aqua;
 }
+
 /* Navbar */
 .nav-container {
     width: 100%;
@@ -110,44 +111,29 @@ em:hover {
     }
 }
 .main{
-    z-index: 5;
-    display: flex;
-    flex-flow: column wrap;
-    margin: 5rem auto 0rem auto;
-    justify-content: center;
-    align-content: center;
+    margin-top: 5rem;
 }
 .section {
-    width: 80%;
+    width: 95%;
     min-height: 100vh;
     margin: 0px auto;
 }
 .section-header {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    block-size: 100%;
     justify-content: center;
     margin-bottom: 2rem;
 }
 .section-name {
     display: inline-block;
     position: relative;
-    text-align: start;
-    font-size: 2rem;
     margin-bottom: .5rem;
-    top: .25rem;
-}
-.section-icon {
-    display: inline-block;
-    width: 3rem;
-    margin-right: .5rem;
 }
 
 
 /* About Me  */
 .aboutme-section {
     min-height: 10vh;
-    width: 90%;
     display: grid;
     grid-template-columns: 40% 1fr 50%;
     grid-template-rows: 1fr 1fr 1fr;
@@ -205,7 +191,7 @@ p.bg-dark.w-auto.text-white.abcaption {
     padding: 1rem;
     padding-bottom: 5px;
     width: 100%;
-    margin: 0rem 1rem .5rem 1rem;
+    margin-bottom: 1rem;
     break-inside: avoid;
 }
 .project-norm {
@@ -280,3 +266,41 @@ p.bg-dark.w-auto.text-white.abcaption {
     1050 wide (navbar)
     950 (aboutme)
 */
+
+@media only screen and (max-width:1600px){
+    .projects-section {
+        columns: 1;
+    }
+    .goUpBtn {
+        right:45vw;
+    }
+    .nav-container {
+        padding: 0px 50px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .nav-links a{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .projects-section{
+        width: 95%;
+        
+    }
+}
+
+@media only screen and (max-width:1450px) {
+    .about-titles {
+        animation: none !important;
+    }
+    .carousel {
+        display: none;
+    }
+    .aboutme-section {
+        display: flex;
+    }
+    .right-border {
+        border: none;
+    }
+}
