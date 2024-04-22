@@ -50,14 +50,15 @@
     
     .project-btn{
         background-color: #ffffff;
-        background: url("../imgs/plus-sign.png") no-repeat scroll center center white;
+        border: 3px black solid;
+        background: url("../imgs/plus-sign.png") no-repeat center center white;
         background-size: 30px;
         background-position: center;
         background-position-x: center;
     }
     
     .project-btn:hover{
-        background-color: #e7f61a;
+        opacity: .2;
     }
 }
 
