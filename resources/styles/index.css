@@ -281,6 +281,12 @@ p.bg-dark.w-auto.text-white.abcaption {
     .nav-links a{
         display: none;
     }
+    .nav-container {
+        justify-content: center;
+        label.btn {
+            margin-left: 1.05rem;
+        }
+    }
 }
 @media only screen and (max-width:800px) {
     .projects-section{
@@ -308,7 +314,7 @@ p.bg-dark.w-auto.text-white.abcaption {
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 355px) {
     .nav-logo-img{
         display: none;
     }

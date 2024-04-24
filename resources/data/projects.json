@@ -1,8 +1,8 @@
 [
     {
         "project-name": "Portfolio",
-        "project-desc": "Showcasing my skills and the projects I've made throughout my academic career.",
-        "project-img": "",
+        "project-desc": "Showcasing the progress I've made throughout my academic career; illustrated through my projects and skills.",
+        "project-img": "./resources/imgs/black-logo.png",
         "project-link": "https://github.com/JosueCota/JosueCota.github.io",
         "project-skills":
             [
@@ -12,7 +12,7 @@
     },
     {
         "project-name": "Speedsters",
-        "project-desc": "A 2D video game made with a group of artists and programmers for the Video Game Development Club at CSUF. <a class='project-links' target='_blank' href='https://wafflefish.itch.io/speedsters'>Web Browser Game Link</a> ",
+        "project-desc": "A 2D platformer made with a group of artists and programmers for the Video Game Development Club at CSUF. <a class='project-links' target='_blank' href='https://wafflefish.itch.io/speedsters'>Browser Game Link</a> ",
         "project-img": "./resources/imgs/speedsters.png",
         "project-link": "https://github.com/JhoshuaAmpo/Speedsters",
         "project-skills":
